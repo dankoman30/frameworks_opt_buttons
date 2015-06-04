@@ -1,5 +1,7 @@
 package com.android.buttons;
 
+import android.animation.AnimatorSet;
+import android.animation.ObjectAnimator;
 import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.Canvas;
@@ -10,11 +12,8 @@ import android.graphics.PixelFormat;
 import android.graphics.Rect;
 import android.graphics.RectF;
 import android.graphics.drawable.Drawable;
+import android.util.Property;
 import android.util.TypedValue;
-
-import com.nineoldandroids.animation.AnimatorSet;
-import com.nineoldandroids.animation.ObjectAnimator;
-import com.nineoldandroids.util.Property;
 
 import java.util.Arrays;
 import java.util.List;
